@@ -1,0 +1,34 @@
+# IDE
+*.user
+.idea
+*.cbp
+
+# Cmake
+CMakeCache.txt
+CMakeFiles/
+cmake-build*
+cmake_install.cmake
+Makefile
+
+# vcpkg
+vcpkg_installed/
+vcpkg-manifest-install.log
+
+# OS
+.DS_Store
+
+# python
+**/__pycache__/
+.pytest_cache/
+
+#unit tests data
+/unit-tests/data/tmp_
+/unit-tests/data/tmp_.txt
+/unit-tests/data/out_test.txt
+/unit-tests/data/tmp2_.txt
+/unit-tests/data/out_no_ext
+/unit-tests/data/out_my_ext.hahahuffman
+/unit-tests/data/out_empty.txt
+/unit-tests/data/out_chinese.txt
+/unit-tests/data/out_big.txt
+/unit-tests/data/out1.txt
